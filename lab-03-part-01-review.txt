@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+~
 
 
 ==========
@@ -23,7 +23,7 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+pwd /users/student
 
 
 ==========
@@ -31,13 +31,25 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
-
+command: ls
+AMALogger20190109.log	Library			baz.txt
+AMALogger20190130.log	MPLABXProjects		google.png
+AMALogger20190204.log	Movies			ipe.properties
+AMALogger20190206.log	Music			isus
+AMALogger20190213.log	New Unity Project	metc1002
+AaronM-MTEC1003		Pictures		mtec1003-lab-03
+Adlm			Public			mtec1003labs
+Adobe			QLData			nano.save
+Applications		Things			puppies.jpg
+Desktop			Untitled-6.ai		pymel.log
+Documents		animals			qux.txt
+Downloads		animals 2		xgen
 
 ==========
 4. If there are directories or files in your home directory that have the word mtec1003 in them, list them below (otherwise skip this step):
 ----------
-
+mtec1003-lab-03
+mtec1003labs
 
 
 ==========
