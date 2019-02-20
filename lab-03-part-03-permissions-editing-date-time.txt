@@ -17,23 +17,28 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
-
-
+date
+Tue Feb 19 18:27:42 EST 2019
 
 ==========
 2. Print out a calendar for this month.
 
 What command did you use, and what was its output?
 ----------
-
-
-
+cal
+February 2019      
+Su Mo Tu We Th Fr Sa  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 11 12 13 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28       
 ==========
 3. Go to your home directory.  Verify that you're in your home directory.
 
 What commands did you use to do this?
 ----------
-
+cd ~
 
 
 ==========
@@ -41,7 +46,8 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+nano copy_to_backup.sh
+ls
 
 
 ==========
@@ -49,16 +55,17 @@ What commands did you use to do this?
 
 What command did you use to find the permissions?
 ----------
-
-
+-rw-r--r-- 
+ls -la
 
 ==========
 6. Change the permissions so that this file is executable by the user.  Verify the new permissions.
 
 What commands did you use to do this?  What was the output?
 ----------
-
-
+chmod u+x copy_to_backup.sh
+ls -la
+-rwxr--r-- 
 
 ==========
 7. Try executing the file!
@@ -67,7 +74,7 @@ $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
 ----------
-
+./copy_to_backup.sh
 
 
 ==========
@@ -75,7 +82,7 @@ What command did you use to try to execute the file?  What happens?
 
 What command did you use to do this?
 ----------
-
+nano copy_to_backup.sh
 
 
 ==========
@@ -90,6 +97,10 @@ Don't forget the first line of your shell script! It should begin with #!/bin/ba
 Write out the code in your file below...
 ----------
 
+#!/bin/bash
+mkdir backup
+cp *.txt backup
+echo "I'm done backing up"
 
 
 ==========
@@ -104,6 +115,7 @@ Write out the code in your file below...
 What commands did you use to do this?
 ----------
 
+touch 1.txt 2.txt
 
 
 ==========
