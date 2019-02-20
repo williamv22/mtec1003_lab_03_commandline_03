@@ -124,7 +124,7 @@ touch 1.txt 2.txt
 What commands did you use to do this?
 ----------
 
-
+mv copy_to_backup.sh test
 
 ==========
 13. Run your script.
@@ -132,10 +132,11 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+bash copy_to_backup.sh
 
 ==========
 14. Verify that a backup folder was created in your test directory... with copies of the files present.
 
 What commands did you use to do this?  Show the output.
 ----------
+ls backup
